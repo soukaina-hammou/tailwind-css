@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Soukaina — Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="description"
+            content="Portfolio of Soukaina — projects, skills, and contact." />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="site-header container">
+            <div class="brand">
+                <a href="#" class="logo">S</a>
+                <div class="brand-text">
+                    <h1 class="name">Soukaina</h1>
+                    <p class="role">Frontend Developer</p>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="themeToggle" class="btn btn-ghost"
+                    aria-label="Toggle theme">Toggle theme</button>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero container reveal">
+            <div class="hero-content">
+                <h2 class="hero-title">Building clean interfaces with a subtle
+                    glow</h2>
+                <p class="hero-subtitle">
+                    I craft accessible, performant, and elegant frontends — with
+                    just enough sparkle to feel alive.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View
+                        projects</a>
+                    <a href="#contact" class="btn btn-soft">Get in touch</a>
+                </div>
+                <div class="socials">
+                    <!-- GitHub -->
+                    <a class="social-link"
+                        href="https://github.com/yourusername" target="_blank"
+                        rel="noopener" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="icon">
+                            <path
+                                d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.31 6.86 9.66.5.1.68-.22.68-.48v-1.7c-2.79.62-3.38-1.2-3.38-1.2-.46-1.2-1.13-1.52-1.13-1.52-.92-.64.07-.63.07-.63 1.02.07 1.56 1.07 1.56 1.07.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.64-1.38-2.23-.25-4.58-1.15-4.58-5.12 0-1.13.39-2.05 1.03-2.77-.1-.25-.45-1.3.1-2.71 0 0 .84-.27 2.76 1.06a9.3 9.3 0 0 1 5.02 0c1.92-1.33 2.76-1.06 2.76-1.06.55 1.41.2 2.46.1 2.71.64.72 1.03 1.64 1.03 2.77 0 3.98-2.36 4.86-4.6 5.12.36.32.69.95.69 1.92v2.84c0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z" />
+                        </svg>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a class="social-link"
+                        href="https://www.linkedin.com/in/yourusername"
+                        target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="icon">
+                            <path
+                                d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.63 4.74 6.05V21h-4v-5.1c0-1.22-.02-2.8-1.71-2.8-1.71 0-1.97 1.34-1.97 2.7V21h-3.66V9Z" />
+                        </svg>
+                    </a>
+                    <!-- Twitter/X -->
+                    <a class="social-link"
+                        href="https://twitter.com/yourusername" target="_blank"
+                        rel="noopener" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="icon">
+                            <path
+                                d="M18 2H6a4 4 0 0 0-4 4v12a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4Zm-4.8 14.8-2.21-3.03-3.02 3.03H6.5l4.05-4.07L6.47 7.2h2.02l2.14 2.94 2.93-2.94h1.45l-3.79 3.82 4.14 5.78H13.2Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card glass glow">
+                <img
+                    src="https://images.unsplash.com/photo-1520975919531-6a3b1890ed89?q=80&w=1200&auto=format&fit=crop"
+                    alt="Desk with laptop and coffee" loading="lazy" />
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about container reveal">
+            <div class="about-card glass soft">
+                <h3 class="section-title glow-text">About me</h3>
+                <p>
+                    I’m a frontend developer focused on creating smooth,
+                    accessible experiences. I enjoy turning complex ideas
+                    into clear user interfaces, and I care about details like
+                    performance, motion, and micro-interactions.
+                </p>
+                <ul class="tags">
+                    <li class="tag">HTML</li>
+                    <li class="tag">CSS</li>
+                    <li class="tag">JavaScript</li>
+                    <li class="tag">React</li>
+                    <li class="tag">Accessibility</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Featured project -->
+        <section class="featured container reveal">
+            <div class="featured-card glass glow">
+                <div class="featured-media">
+                    <img
+                        src="https://images.unsplash.com/photo-1558885544-2e88f2f39f22?q=80&w=1200&auto=format&fit=crop"
+                        alt="Featured project screenshot" loading="lazy" />
+                </div>
+                <div class="featured-content">
+                    <h3 class="section-title glow-text">Featured project —
+                        Aurora UI</h3>
+                    <p>
+                        A lightweight component library featuring accessible
+                        patterns and elegant glow animations. Built with
+                        semantic HTML, modern CSS, and vanilla JS.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="btn btn-primary">Live demo</a>
+                        <a href="#" class="btn btn-soft">View code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects grid -->
+        <section id="projects" class="projects container reveal">
+            <h3 class="section-title glow-text">Projects</h3>
+            <div class="grid">
+                <article class="project-card glass soft">
+                    <h4 class="project-title">Portfolio Glow</h4>
+                    <p class="project-desc">Personal site with glowing accents,
+                        soft shadows, and scroll animations.</p>
+                    <div class="buttons">
+                        <a class="btn btn-soft" href="#">Demo</a>
+                        <a class="btn btn-ghost" href="#">Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card glass soft">
+                    <h4 class="project-title">TaskFlow</h4>
+                    <p class="project-desc">A minimalist task manager with
+                        keyboard shortcuts and offline mode.</p>
+                    <div class="buttons">
+                        <a class="btn btn-soft" href="#">Demo</a>
+                        <a class="btn btn-ghost" href="#">Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card glass soft">
+                    <h4 class="project-title">Data Sketch</h4>
+                    <p class="project-desc">Quick charts from CSVs with a clean
+                        dark theme and export to PNG.</p>
+                    <div class="buttons">
+                        <a class="btn btn-soft" href="#">Demo</a>
+                        <a class="btn btn-ghost" href="#">Code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact container reveal">
+            <div class="contact-card glass soft">
+                <h3 class="section-title glow-text">Contact</h3>
+                <p>Want to collaborate or just say hi? I’d love to hear from
+                    you.</p>
+                <form class="contact-form" onsubmit="return false;">
+                    <div class="form-grid">
+                        <label class="field">
+                            <span>Name</span>
+                            <input type="text" placeholder="Your name" />
+                        </label>
+                        <label class="field">
+                            <span>Email</span>
+                            <input type="email" placeholder="you@example.com" />
+                        </label>
+                    </div>
+                    <label class="field">
+                        <span>Message</span>
+                        <textarea rows="4"
+                            placeholder="Write your message..."></textarea>
+                    </label>
+                    <button class="btn btn-primary" type="submit">Send
+                        message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer container">
+            <p>© <span id="year"></span> Soukaina · Made with care</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
